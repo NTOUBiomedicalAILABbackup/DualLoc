@@ -37,7 +37,7 @@ pip install scikit-learn pandas numpy matplotlib seaborn
 pip install umap-learn tqdm
 
 # Clone repository
-git clone https://github.com/NTOUBiomedicalAILAB/DualLoc.git
+git clone https://github.com/NTOUBiomedicalAILABbackup/DualLoc.git
 cd DualLoc/
 ```
 
