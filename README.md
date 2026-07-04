@@ -213,21 +213,5 @@ The subcellular localization training data is derived from manually reviewed Swi
 
 ---
 
-## Configuration
-
-Key parameters in `src/config.py`:
-
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `model_name` | `Rostlab/prot_t5_xl_uniref50` | Pretrained PLM (auto-downloaded from HuggingFace) |
-| `EPOCHS` | 20 | Number of training epochs |
-| `LEARNING_RATE` | 2e-4 | AdamW learning rate |
-| `MAX_LEN` | 512 | Maximum sequence length |
-| `dropout_rate` | 0.3 | Dropout rate |
-| `THRESHOLD` | 0.5 | Prediction threshold (multi-label) |
-|num_labels_loc| 10 | Output classes for subcellular localization |
-|num_labels_signal| 9 | Output classes for sorting signal classification |
-
-
 
 
